@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(1, 26, 34), rgb(6, 32, 53));
+}
+
+.top{
+    background-image: linear-gradient(to right, white, gray);
+}
+
+.header{
+    display: flex;
+    font: arial;
+    align-items: center;
+    justify-content: center;
+    height: 45ox;
+}
+.container{
+    width: 1300px;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.small-container{
+    width: 800px;
+    display: flex;
+    background-image:linear-gradient(to bottom right,  rgb(31, 41, 71), black);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.summary{
+    display: flex;
+    background-image:linear-gradient(to bottom right,  rgb(31, 41, 71), black);
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+header h1{
+    font: sans-serif;
+    text-align: center;
+}
+h1{
+    
+    font: sans-serif;
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+   
+}
+h3{
+    font: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.list_but{
+    background-color: rgb(85, 138, 155);
+    width: 80px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#git-button{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    
+}
+#git-button:hover{
+    background-color: rgb(133, 129, 129);
+}
+#sequence-button{
+    margin-top: 15px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+}
+#sequence-button:hover{
+    background-color: rgb(133, 129, 129);
+}
